@@ -6,12 +6,12 @@
 [![Versão](https://img.shields.io/badge/versão-[0.1.0]-blue)]()
 [![Licença](https://img.shields.io/badge/licença-[acadêmica]-lightgrey)]()
 
-**Instituição:** [Nome da instituição]  
-**Curso:** [Nome do curso]  
-**Disciplina:** [Nome da disciplina]  
-**Turma / Semestre:** [Ex.: 2026.2]  
-**Professor(a):** [Nome completo]  
-**Status do projeto:** [Protótipo / MVP / Em desenvolvimento / Concluído]
+**Instituição:** Centro Universitário de Brasília (UniCEUB)
+**Curso:** Ciências da computação
+**Disciplina:** Desenvolvimento Web  
+**Turma / Semestre:** 2026.4  
+**Professor(a):** Felippe Pires Ferreira  
+**Status do projeto:** [Protótipo]
 
 ---
 
@@ -37,25 +37,21 @@
 
 ## 1. Descrição do projeto
 
-*Apresente o contexto, o problema e a solução proposta. Use linguagem objetiva (dois a quatro parágrafos).*
-
-[Descreva o que o sistema faz, para quem ele se destina e qual problema ele resolve.]
+O (NOME A DECIDIR) é uma aplicação web de gestão financeira pessoal e acompanhamento de carteira de investimentos. O problema central que o sistema resolve é a fragmentação de dados: pequenos investidores frequentemente precisam utilizar planilhas complexas ou múltiplos aplicativos distintos para controlar o seu fluxo de caixa diário e, simultaneamente, acompanhar a rentabilidade da sua carteira de ativos (renda fixa, ações e criptomoedas). A solução proposta centraliza essas vertentes em um único dashboard intuitivo.
 
 ### Objetivos
 
-*Liste os objetivos gerais e específicos do projeto.*
+**Objetivo geral:** Desenvolver uma aplicação web com backend em Python e Django para centralizar a gestão de finanças pessoais e investimentos, com atualização de dados de mercado via consumo de API REST externa.
 
-- **Objetivo geral:** [Ex.: desenvolver uma aplicação web para gerenciar reservas de laboratórios.]
-- **Objetivos específicos:**
-  - [Ex.: permitir cadastro e autenticação de usuários.]
-  - [Ex.: registrar e consultar reservas por data e laboratório.]
-  - [Ex.: gerar relatórios de ocupação.]
+**Objetivos específicos:**
+* Permitir o cadastro seguro, autenticação e controle de acesso de múltiplos usuários.
+* Gerenciar o CRUD completo de Contas Bancárias, Categorias, Transações e Ordens de Investimentos.
+* Integrar o sistema a uma API financeira pública para atualizar cotações.
+* Fornecer uma API REST própria para consulta de dados. Posteriormente com consumo em um bot do telegram
 
 ### Público-alvo
-
-- [Ex.: estudantes da instituição]
-- [Ex.: professores responsáveis pelos laboratórios]
-- [Ex.: equipe administrativa]
+* Jovens investidores buscando consolidar fluxo de caixa e carteira de ativos.
+* Pessoas físicas focadas em organização financeira pessoal a longo prazo.
 
 ---
 
@@ -64,19 +60,21 @@
 *Liste as funções implementadas (ou previstas) no sistema. Marque o status de cada uma.*
 
 | Funcionalidade | Descrição | Status |
-| --- | --- | --- |
-| [Ex.: Autenticação] | [Ex.: login, logout e recuperação de senha] | [Implementada / Em andamento / Planejada] |
-| [Ex.: Cadastro de usuários] | [Ex.: criação e edição de perfis] | [Implementada / Em andamento / Planejada] |
-| [Ex.: Relatórios] | [Ex.: exportação em PDF] | [Implementada / Em andamento / Planejada] |
+| :--- | :--- | :--- |
+| **Autenticação** | Login, logout e isolamento de dados por usuário | Planejada |
+| **Cadastros Base** | Gestão de Contas Bancárias e Categorias personalizadas | Planejada |
+| **Transações** | Lançamento de receitas e despesas no fluxo de caixa | Planejada |
+| **Investimentos** | Lançamento de ordens de compra e venda de ativos | Planejada |
+| **Relatórios** | Consolidação do histórico patrimonial (caixa + investimentos) | Planejada |
+| **Integração Externa** | Consumo de API para cotações de ativos em tempo real | Planejada |
+| **API REST Própria** | Endpoints em JSON para consulta de dados financeiros | Planejada |
 
 ### Requisitos não funcionais
 
-*Informe restrições de qualidade, quando existirem.*
-
-- **Desempenho:** [Ex.: respostas da API em menos de 2 segundos]
-- **Segurança:** [Ex.: senhas armazenadas com hash; HTTPS em produção]
-- **Usabilidade:** [Ex.: interface responsiva para desktop e celular]
-- **Disponibilidade:** [Ex.: uso em ambiente local / laboratório da disciplina]
+* **Desempenho:** Respostas da API em menos de 2 segundos.
+* **Segurança:** Senhas armazenadas com hash.
+* **Usabilidade:** Interface responsiva construída com react.
+* **Disponibilidade:** Aplicação hospedada e acessível via URL pública com HTTPS (Fase 2).
 
 ---
 
@@ -101,13 +99,13 @@
 
 | Camada | Tecnologia | Versão |
 | --- | --- | --- |
-| Linguagem | [Ex.: Python, Java, TypeScript] | [Ex.: 3.12] |
-| Frontend | [Ex.: HTML, CSS, React] | [Ex.: 18] |
-| Backend | [Ex.: Flask, Spring Boot, Node.js] | [Ex.: 3.x] |
-| Banco de dados | [Ex.: PostgreSQL, SQLite, MongoDB] | [Ex.: 16] |
-| Testes | [Ex.: pytest, JUnit, Jest] | [Ex.: 8] |
-| Infraestrutura | [Ex.: Docker, GitHub Actions] | — |
-| Outras ferramentas | [Ex.: Git, Figma, Postman] | — |
+| Linguagem | Python |  |
+| Frontend | HTML, CSS, React | |
+| Backend | Django | |
+| Banco de dados | PostgreSQL | |
+| Testes | |  |
+| Infraestrutura |  |  |
+| Outras ferramentas |Git, Figma, Postman] | — |
 
 ---
 

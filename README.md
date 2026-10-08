@@ -1,6 +1,4 @@
-# MoneyFlow 
-
-> Substitua os trechos entre colchetes `[ ]` pelas informações reais do trabalho. Remova esta nota e as demais orientações em *itálico* antes da entrega.
+# MoneyFlow - Gestão Financeira e Investimentos
 
 [![Status](https://img.shields.io/badge/status-em_desenvolvimento-yellow)]()
 [![Versão](https://img.shields.io/badge/versão-0.1.0-blue)]()
@@ -37,7 +35,7 @@
 
 ## 1. Descrição do projeto
 
-O (NOME A DECIDIR) é uma aplicação web de gestão financeira pessoal e acompanhamento de carteira de investimentos. O problema central que o sistema resolve é a fragmentação de dados: pequenos investidores frequentemente precisam utilizar planilhas complexas ou múltiplos aplicativos distintos para controlar o seu fluxo de caixa diário e, simultaneamente, acompanhar a rentabilidade da sua carteira de ativos (renda fixa, ações e criptomoedas). A solução proposta centraliza essas vertentes em um único dashboard intuitivo.
+O MoneyFlow é uma aplicação web de gestão financeira pessoal e acompanhamento de carteira de investimentos. O problema central que o sistema resolve é a fragmentação de dados: pequenos investidores frequentemente precisam utilizar planilhas complexas ou múltiplos aplicativos distintos para controlar o seu fluxo de caixa diário e, simultaneamente, acompanhar a rentabilidade da sua carteira de ativos (renda fixa, ações e criptomoedas). A solução proposta centraliza essas vertentes em um único dashboard intuitivo.
 
 ### Objetivos
 
@@ -56,8 +54,6 @@ O (NOME A DECIDIR) é uma aplicação web de gestão financeira pessoal e acompa
 ---
 
 ## 2. Funcionalidades
-
-*Liste as funções implementadas (ou previstas) no sistema. Marque o status de cada uma.*
 
 | Funcionalidade | Descrição | Status |
 | :--- | :--- | :--- |

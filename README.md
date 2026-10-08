@@ -95,13 +95,13 @@ O MoneyFlow é uma aplicação web de gestão financeira pessoal e acompanhament
 
 | Camada | Tecnologia | Versão |
 | --- | --- | --- |
-| Linguagem | Python |  |
-| Frontend | HTML, CSS, React | |
-| Backend | Django | |
-| Banco de dados | PostgreSQL | |
-| Testes | |  |
-| Infraestrutura |  |  |
-| Outras ferramentas |Git, Figma, Postman] | — |
+| Linguagem | Python | a decidir |
+| Frontend | HTML, CSS, React | a decidir |
+| Backend | Django | a decidir |
+| Banco de dados | PostgreSQL | a decidir |
+| Testes | a decidir | a decidir |
+| Infraestrutura | a decidir | a decidir |
+| Outras ferramentas |Git, Figma, Postman, brModeloweb, Draw.io, Github | — |
 
 ---
 
@@ -181,13 +181,12 @@ Documentação completa da API: [link para Swagger, Postman ou `docs/api.md`]
 
 | Nome | Matrícula | Função no projeto |
 | --- | --- | --- |
-| [Nicolas Klaczko Hogan] | [22506264] | [coordenação / backend / testes / documentação] |
-| [Nome completo] | [000000] | [Ex.: backend] |
-| [Nome completo] | [000000] | [Ex.: frontend] |
-| [Nome completo] | [000000] | [Ex.: testes e documentação] |
+| [Nicolas Klaczko Hogan] | [22506264] | [coordenação / full-stack / testes / documentação] |
+| [Gabriel Soares Segatto] | [22502904] | [coordenação / full-stack / testes / documentação] |
+| [André Yuri Alves Silva ] | [22509843] | [coordenação / full-stack / testes / documentação] |
 
-**Professor(a) responsável:** [Nome completo]
 
+**Professor(a) responsável:** Felippe Pires Ferreira
 ---
 
 ## 8. Como executar
@@ -277,11 +276,10 @@ Este repositório segue a política de uso de IA da disciplina (semáforo pedag�
 
 *Preencha de forma honesta. Se não houve uso de IA, declare explicitamente.*
 
-- **Houve uso de IA neste projeto?** [Sim / Não]
-- **Ferramentas utilizadas:** [Ex.: ChatGPT, GitHub Copilot, Gemini — ou “nenhuma”]
-- **Finalidade:** [Ex.: revisão de texto, geração de esboço de testes, esclarecimento de dúvidas de sintaxe]
-- **O que NÃO foi delegado à IA:** [Ex.: definição do problema, modelagem, implementação das regras de negócio, testes finais]
-
+- **Houve uso de IA neste projeto?** Sim
+- **Ferramentas utilizadas:** ChatGPT, Gemini
+- **Finalidade:** Finalidade: Auxílio na formatação de textos (Markdown), validação de diagramas, esclareciemento de duvidas de sintaxe
+- **O que NÃO foi delegado à IA:** decisões arquiteturais, definição do escopo e regras do negócio
 ---
 
 ## 12. Contribuição e fluxo de trabalho
@@ -291,7 +289,6 @@ Este repositório segue a política de uso de IA da disciplina (semáforo pedag�
 ### Branches
 
 - `main` — versão estável para avaliação
-- `develop` — integração do grupo *(opcional)*
 - `feat/[nome]` — nova funcionalidade
 - `fix/[nome]` — correção de defeito
 - `docs/[nome]` — alterações só de documentação
@@ -321,8 +318,8 @@ Use mensagens curtas e no imperativo, por exemplo:
 
 | Versão | Data | Descrição |
 | --- | --- | --- |
-| `0.1.0` | [AAAA-MM-DD] | [Ex.: primeira versão executável / MVP] |
-| `0.0.1` | [AAAA-MM-DD] | [Ex.: estrutura inicial do repositório] |
+| `x.x.x` | [AAAA-MM-DD] | [Ex.:...  |
+| `0.0.1` | [2026-10-08] | [estrutura inicial do repositório] |
 
 ---
 
@@ -365,4 +362,4 @@ Este material destina-se a fins educacionais. Verifique com a disciplina se o c�
 
 Dúvidas sobre o projeto: [e-mail institucional do grupo ou issue no repositório]
 
-**Agradecimentos:** [Ex.: professor(a), monitoria, materiais da disciplina]
+**Agradecimentos:** Felippe Pires Ferreira

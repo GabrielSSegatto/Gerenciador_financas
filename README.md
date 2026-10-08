@@ -203,7 +203,7 @@ Documentação completa da API: [link para Swagger, Postman ou `docs/api.md`]
 
 ```bash
 # 1. Clonar o repositório
-git clone [URL_DO_REPOSITORIO]
+git clone [https://github.com/GabrielSSegatto/Gerenciador_financas.git]
 cd [NOME_DA_PASTA]
 
 # 2. Instalar dependências
@@ -222,7 +222,7 @@ cp .env.example .env
 ### Implantação (quando houver)
 
 - **Ambiente:** [Ex.: Render, Railway, Vercel, servidor da instituição]
-- **URL de produção:** [https://...]
+- **URL de produção:** [https://...] [https://github.com/GabrielSSegatto/Gerenciador_financas.git]
 - **Observações:** [Ex.: é necessário configurar as variáveis de ambiente no painel do provedor]
 
 ---
@@ -263,7 +263,7 @@ Credenciais reais devem ficar apenas no arquivo `.env` (não versionado).
 
 Este repositório segue a política de uso de IA da disciplina (semáforo pedagógico):
 
-![Política de uso de IA — semáforo](images/semaforo.png)
+![Política de uso de IA — semiformal](images/semaforo.png)
 
 | Situação | Significado |
 | --- | --- |

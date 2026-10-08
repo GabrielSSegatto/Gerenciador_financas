@@ -45,7 +45,7 @@ O MoneyFlow é uma aplicação web de gestão financeira pessoal e acompanhament
 * Permitir o cadastro seguro, autenticação e controle de acesso de múltiplos usuários.
 * Gerenciar o CRUD completo de Contas Bancárias, Categorias, Transações e Ordens de Investimentos.
 * Integrar o sistema a uma API financeira pública para atualizar cotações.
-* Fornecer uma API REST própria para consulta de dados. Posteriormente com consumo em um bot do telegram
+* Fornecer uma API REST própria para consulta de dados, preparada para integrações futuras (como um bot do Telegram, fora do escopo desta versão).
 
 ### Público-alvo
 * Jovens investidores buscando consolidar fluxo de caixa e carteira de ativos.

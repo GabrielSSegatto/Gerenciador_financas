@@ -179,7 +179,7 @@ Documentação completa da API: [link para Swagger, Postman ou `docs/api.md`]
 
 | Nome | Matrícula | Função no projeto |
 | --- | --- | --- |
-| [Nome completo] | [000000] | [Ex.: coordenação / backend / frontend / testes / documentação] |
+| [Nicolas Klaczko Hogan] | [22506264] | [coordenação / backend / testes / documentação] |
 | [Nome completo] | [000000] | [Ex.: backend] |
 | [Nome completo] | [000000] | [Ex.: frontend] |
 | [Nome completo] | [000000] | [Ex.: testes e documentação] |

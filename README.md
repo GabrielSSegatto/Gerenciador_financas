@@ -107,18 +107,20 @@ O MoneyFlow é uma aplicação web de gestão financeira pessoal e acompanhament
 
 ## 5. Arquitetura
 
-*Explique como o sistema está organizado: camadas, principais componentes e o fluxo entre eles. Inclua um diagrama no PDF de arquitetura ou de classes em `docs/` e descreva-o em texto.*
+A solução segue uma arquitetura cliente-servidor em camadas: uma SPA em React (frontend) consome uma API REST própria, desenvolvida com Django REST Framework (backend), que persiste os dados em PostgreSQL e consome uma API externa de cotações. O backend é uma aplicação única (monolito); a separação entre frontend e backend permite evoluir cada lado de forma independente.
 
-[Ex.: a solução segue uma arquitetura em camadas (apresentação, aplicação, domínio e persistência). O frontend consome uma API REST. O backend aplica as regras de negócio e persiste os dados no banco.]
+![Diagrama de componentes do MoneyFlow](docs/arquitetura/Diagrama%20-%20arquitetura.png)
 
-```text
-[Usuário] → [Interface / Frontend] → [API / Backend] → [Banco de dados]
-```
+**Fluxo de Dados:**
+`[Navegador / React] ⇄ [API REST / Django] ⇄ [Banco de Dados / PostgreSQL]`
+
+Em paralelo para as cotações:
+`[API REST / Django] → Request HTTP → [API Externa]`
 
 **Decisões relevantes:**
-
-- [Ex.: uso de API REST para separar cliente e servidor.]
-- [Ex.: persistência relacional porque os dados possuem relacionamentos bem definidos.]
+* **Separação frontend/backend (React + Django REST):** a API REST separa cliente e servidor, permitindo trocar ou evoluir o frontend sem alterar as regras de negócio.
+* **Cotações sob demanda:** o cálculo do patrimônio (histórico) busca os preços atualizados em uma API externa, então o sistema não precisa armazenar cotações diárias.
+* **Tolerância a falhas da API externa:** as chamadas usam timeout e tratamento de erro, para que a indisponibilidade do provedor não derrube o restante da aplicação.
 
 ### Endpoints principais (quando houver API)
 

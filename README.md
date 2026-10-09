@@ -170,8 +170,8 @@ Documentação completa da API: docs/api/
 |   |       ├── Diagrama_classe.drawio
 |   |       ├── Diagrama_classe.png
 |   |       └── Diagrama-de-classes.pdf
-|   |
-|   |
+|   ├── planejamento
+|   |   └── README.md
 |   ├── prototipo/              # Link ao protótipo de interface
 |   |   └── README.md
 |   └── visao/                  # Documento de visão do projeto

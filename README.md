@@ -188,14 +188,14 @@ Documentação completa da API: docs/api/
 | Diretório / arquivo | Função |
 | --- | --- |
 | `README.md` | Apresentação do projeto, objetivos, tecnologias e instruções de uso |
-| `.env.example` | Lista das variáveis necessárias, sem credenciais reais |
-| `docs/` | Artefatos de análise, visão do produto e documentação da API |
-| `docs/arquitetura/` Diagramas arquiteturais da aplicação|
-| `docs/modelagem/` | Casos de uso, classes e modelo de dados (ER e lógico) |
-| `images/` | Figuras e ilustrações para a documentação geral do repositório |
+| `.env.example` | Lista das variáveis necessárias, sem credenciais reais. |
+| `docs/` | Artefatos de análise, visão do produto e documentação da API. |
+| `docs/arquitetura/` | Diagramas arquiteturais da aplicação. |
+| `docs/modelagem/` | Casos de uso, classes e modelo de dados (ER e lógico). |
+| `images/` | Figuras e ilustrações para a documentação geral do repositório. |
 | `src/` | Código-fonte organizado por camada (frontend e backend) e módulo. |
-| `tests/` | Casos de teste e evidências de verificação |
-| `scripts/` | Automação de ambiente e execução |
+| `tests/` | Casos de teste e evidências de verificação. |
+| `scripts/` | Automação de ambiente e execução. |
 
 ---
 
@@ -217,30 +217,40 @@ Documentação completa da API: docs/api/
 
 ### Pré-requisitos
 
-- [Ex.: Git]
-- [Ex.: Python 3.12+]
-- [Ex.: Node.js 20+]
-- [Ex.: Docker]
+- Git instalado
+- Python 3.12 ou superior
+- Node.js 20+ e npm/Yarn
+- PostgreSQL
 
 ### Instalação e execução
 
 ```bash
 # 1. Clonar o repositório
-git clone [https://github.com/GabrielSSegatto/Gerenciador_financas.git]
-cd [NOME_DA_PASTA]
+git clone https://github.com/GabrielSSegatto/Gerenciador_financas.git
+cd Gerenciador_financas
 
 # 2. Instalar dependências
-[comando de instalação]
+cd src/backend
+python -m venv venv
+# No Windows:
+venv\Scripts\activate
+# No Linux/Mac:
+source venv/bin/activate
+
+pip install -r requirements.txt
+cp .env.example .env
+python manage.py migrate
+python manage.py runserver
 
 # 3. Configurar variáveis de ambiente
 cp .env.example .env
-# edite o arquivo .env com as credenciais locais
+cd ../frontend
+npm install
+npm run dev
 
-# 4. Executar a aplicação
-[comando de execução]
 ```
 
-**Acesso local:** [Ex.: http://localhost:3000]
+**Acesso local:** http://localhost:3000
 
 ### Implantação (quando houver)
 

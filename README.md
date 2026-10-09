@@ -138,23 +138,40 @@ Documentação completa da API: [link para Swagger, Postman ou `docs/api.md`]
 
 ## 6. Organização dos diretórios
 
-*Mantenha a árvore alinhada à estrutura real do repositório. Ajuste pastas conforme o tipo de projeto.*
-
 ```text
 .
 ├── README.md                 # Documentação principal do projeto
 ├── .env.example              # Modelo de variáveis de ambiente (sem segredos)
-├── docs/                     # Modelagem e demais artefatos técnicos (PDF)
+├── docs/                     # Modelagem do projeto e artefatos técnicos
 │   ├── README.pdf            # Índice da pasta docs/
-│   └── modelagem/
-│       ├── casos-de-uso/
-│       │   └── especificacoes-casos-de-uso.pdf
-│       ├── classes/
-│       │   └── diagrama-de-classes.pdf
-│       └── banco-de-dados/
-│           ├── diagrama-er.pdf
-│           └── modelo-logico.pdf
-├── images/                   # Figuras da documentação geral (ex.: política de IA)
+|   ├── api/                  # Documentação da API
+|   |   ├── README.md
+|   ├── arquitetura/          # Diagramas de arquitetura do sistema
+|   |   ├── Diagrama - arquitetura.drawio
+|   |   ├── Diagrama - arquitetura.png
+│   ├── modelagem/ 
+│   |   ├── banco-de-dados/   # Artefatos do banco de dados
+|   |   |   ├── README.md
+│   |   |   ├── diagrama-er.pdf
+|   |   |   ├── dicionario_de_dados.pdf
+|   |   |   ├── dicionario_de_dados.xlsx
+|   |   |   ├── modelagem_conceitual.pdf
+|   |   |   ├── modelagem_logica.pdf
+│   |   |   └── modelo-logico.pdf
+│   |   ├── casos-de-uso/      # Especificações e diagramas de casos de uso
+│   |   │   └── especificacoes-casos-de-uso.pdf
+│   |   └── classes/           # Diagramas de classe
+|   |       ├── Diagrama_classe.drawio
+|   |       ├── Diagrama_classe.png
+|   |       └── Diagrama-de-classes.pdf
+|   |
+|   |
+|   ├── prototipo/              # Link ao protótipo de interface
+|   |   └── README.md
+|   └── visao/                  # Documento de visão do projeto
+|       └──documento-de-visão
+|      
+├── images/                   # Figuras da documentação geral
 ├── src/                      # Código-fonte da aplicação
 │   ├── frontend/             # Interface com o usuário (quando houver)
 │   └── backend/              # Regras de negócio, API e acesso a dados (quando houver)
@@ -177,13 +194,11 @@ Documentação completa da API: [link para Swagger, Postman ou `docs/api.md`]
 
 ## 7. Participantes
 
-*Informe nome completo, função no grupo e, se houver, o identificador acadêmico (matrícula).*
-
 | Nome | Matrícula | Função no projeto |
 | --- | --- | --- |
-| [Nicolas Klaczko Hogan] | [22506264] | [coordenação / full-stack / testes / documentação] |
-| [Gabriel Soares Segatto] | [22502904] | [coordenação / full-stack / testes / documentação] |
-| [André Yuri Alves Silva ] | [22509843] | [coordenação / full-stack / testes / documentação] |
+| Nicolas Klaczko Hogan | 22506264 | coordenação / full-stack / testes / documentação |
+| Gabriel Soares Segatto | 22502904 | coordenação / full-stack / testes / documentação |
+| André Yuri Alves Silva  | 22509843 | coordenação / full-stack / testes / documentação |
 
 
 **Professor(a) responsável:** Felippe Pires Ferreira

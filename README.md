@@ -136,6 +136,8 @@ Em paralelo para as cotações:
 | `GET` |	`/api/v1/ativos/`	| Lista os ativos cadastrados (B3 e Criptos) |
 | `POST`| `/api/v1/investimentos/ordens/` |	Registra uma ordem de compra ou venda de ativos|
 | `GET` |	`/api/v1/historico-patrimonial/` |Retorna o resumo consolidado do patrimônio (caixa + cotações em tempo real)|
+
+
 Documentação completa da API: docs/api/
 
 ---

@@ -278,7 +278,7 @@ Este repositório segue a política de uso de IA da disciplina (semáforo pedag�
 
 - **Houve uso de IA neste projeto?** Sim
 - **Ferramentas utilizadas:** ChatGPT, Gemini
-- **Finalidade:** Finalidade: Auxílio na formatação de textos (Markdown), validação de diagramas, esclareciemento de duvidas de sintaxe
+- **Finalidade:** Finalidade: Auxílio na formatação de textos (Markdown), validação de diagramas, esclareciemento de duvidas de sintaxe, auxilio na prototipação do front end com a IA do Figma
 - **O que NÃO foi delegado à IA:** decisões arquiteturais, definição do escopo e regras do negócio
 ---
 

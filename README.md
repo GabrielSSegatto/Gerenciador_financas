@@ -126,13 +126,17 @@ Em paralelo para as cotações:
 
 | Método | Rota | Descrição |
 | --- | --- | --- |
-| `POST` | `/api/[recurso]` | [Ex.: criar um registro] |
-| `GET` | `/api/[recurso]` | [Ex.: listar registros] |
-| `GET` | `/api/[recurso]/{id}` | [Ex.: obter um registro] |
-| `PUT` | `/api/[recurso]/{id}` | [Ex.: atualizar um registro] |
-| `DELETE` | `/api/[recurso]/{id}` | [Ex.: remover um registro] |
-
-Documentação completa da API: [link para Swagger, Postman ou `docs/api.md`]
+| `POST` | `/api/v1/auth/login/` | Autentica o usuário e retorna o token de acesso (JWT) |
+| `POST` | `/api/v1/auth/register/` | Cadastra um novo usuário no sistema |
+| `GET` | `/api/v1/contas/` | Lista todas as contas bancárias do usuário autenticado |
+| `POST` | `/api/v1/contas/` | Cria uma nova conta bancária |
+| `GET` | `/api/v1/categorias/` | Lista as categorias cadastradas (receita/despesa) |
+| `GET` | `/api/v1/transacoes/`| Lista as receitas e despesas com opção de filtro |
+| `POST` | `/api/v1/transacoes/` | Registra uma nova receita ou despesa no fluxo de caixa |
+| `GET` |	`/api/v1/ativos/`	| Lista os ativos cadastrados (B3 e Criptos) |
+| `POST`| `/api/v1/investimentos/ordens/` |	Registra uma ordem de compra ou venda de ativos|
+| `GET` |	`/api/v1/historico-patrimonial/` |Retorna o resumo consolidado do patrimônio (caixa + cotações em tempo real)|
+Documentação completa da API: docs/api/
 
 ---
 
@@ -376,6 +380,8 @@ Este material destina-se a fins educacionais. Verifique com a disciplina se o c�
 
 ### Contato
 
-Dúvidas sobre o projeto: [e-mail institucional do grupo ou issue no repositório]
+Dúvidas sobre o projeto: André Yuri - andre.ys@sempreceub.com
+                          Nicolas Klaczko Hogan - Nicolas.klaczko@sempreceub.com
+                           Gabriel Soares Segatto - gabriel.ssegatto@sempreceub.com
 
 **Agradecimentos:** Felippe Pires Ferreira

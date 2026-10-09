@@ -183,10 +183,11 @@ Documentação completa da API: [link para Swagger, Postman ou `docs/api.md`]
 | --- | --- |
 | `README.md` | Apresentação do projeto, objetivos, tecnologias e instruções de uso |
 | `.env.example` | Lista das variáveis necessárias, sem credenciais reais |
-| `docs/` | Artefatos de análise e modelagem em PDF |
-| `docs/modelagem/` | Casos de uso, classes e modelo de dados (diagramas embutidos nos PDFs) |
-| `images/` | Figuras da documentação geral do repositório (não usar para diagramas de modelagem) |
-| `src/` | Código-fonte organizado por camada ou módulo |
+| `docs/` | Artefatos de análise, visão do produto e documentação da API |
+| `docs/arquitetura/` Diagramas arquiteturais da aplicação|
+| `docs/modelagem/` | Casos de uso, classes e modelo de dados (ER e lógico) |
+| `images/` | Figuras e ilustrações para a documentação geral do repositório |
+| `src/` | Código-fonte organizado por camada (frontend e backend) e módulo. |
 | `tests/` | Casos de teste e evidências de verificação |
 | `scripts/` | Automação de ambiente e execução |
 
@@ -334,7 +335,7 @@ Use mensagens curtas e no imperativo, por exemplo:
 | Versão | Data | Descrição |
 | --- | --- | --- |
 | `x.x.x` | [AAAA-MM-DD] | [Ex.:...  |
-| `0.0.1` | [2026-10-08] | [estrutura inicial do repositório] |
+| `0.0.1` | 2026-10-08 | estrutura inicial do repositório |
 
 ---
 
